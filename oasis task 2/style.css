@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+         
+        
+*
+{
+    scroll-behavior: smooth;
+}
+body {
+    background: black;
+  
+}
+.btn1{
+    text-align:center;
+}
+.btn1 a{
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 2cm;
+    font-size: x-large;
+}
+.btn1 a:hover{
+    color: #6AFB98;
+} 
+#image {   
+   
+    position: absolute; 
+    align-items: center;
+     top: 15%;
+    left: 65%;  
+
+
+}
+
+.possition {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 12% 0% 0% 10%;
+    font-size: 150%;
+}
+
+.possition h1 {
+    width: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.possition p {
+    font-size: 100%;
+    color: #6AFB98;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para {
+    color: white;
+    margin: 0% 0% 0% 10%;
+    width: 500px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botton {
+    text-align: center;  
+    margin: 0vh 0vh 0vh 30vh;
+    width: 150px;
+    height: 50px;
+    background-color: #6AFB98;
+    border: #6AFB98;
+    border-radius: 50px;
+    
+}  
+.botton a
+{
+    text-decoration: none;
+    color: black ;
+}
+
+.botton p {
+    font-size: large;
+    padding: 15px;
+    text-align: center;
+    color: black;  
+}
+
+.botton p  :hover{
+    letter-spacing: 2px;
+}
+
+.about h2 {
+    font-size: 200%;
+    cursor: pointer;
+    margin: 0% 0% 0% 5%;
+    color: #6AFB98;
+    font-family: Courier New;
+}
+
+.about p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.project h2 {
+    font-size: 200%;
+    font-family: Courier New;
+    margin: 0% 0% 0% 5%;
+    color: #6AFB98;
+}
+
+.project p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*  width: 910px; */
+}
+
+.role h3 {
+    font-size: 100%;
+    margin: 0% 0% 0% 10%;
+    color: #6AFB98;
+    font-family: Courier New;
+}
+
+.role p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+  /*  width: 910px;  */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.learn h2 {
+    font-size: 200%;
+    font-family: Courier New;
+    margin: 0% 0% 0% 5%;
+    color: #6AFB98;
+}
+
+.learn p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.educ h2 {
+    font-size: 200%;
+    font-family: Courier New;
+    margin: 0% 0% 0% 5%;
+    color: #6AFB98;
+}
+
+.educ p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill h2 {
+    font-size: 200%;
+    font-family: Courier New;
+    margin: 0% 0% 0% 5%;
+    color: #6AFB98;
+}
+
+.skill p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skil {
+    
+    margin-left: 8%;
+    width: 500px;
+   /* margin: 60px auto;  */
+    color: white;
+}
+
+.skil h1 {
+    color: #6AFB98;
+    font-family: Courier New;
+}
+
+.skil li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.bar {
+    background-color: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0, 3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.html {
+    width: 90%;
+    animation: html 10s;
+}
+
+.css {
+    width: 70%;
+    animation: css 10s;
+}
+
+.javascript {
+    width: 60%;
+    animation: javascript 10s;
+}
+
+.c {
+    width: 60%;
+    animation: c 10s;
+}
+
+.cpp {
+    width: 60% ;
+    animation: cpp 9s;
+}
+
+.python {
+    width: 60%;
+    animation: python 10s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes cpp {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.lang {
+
+    margin: 0% 0% 0% 5%; 
+}
+
+.lang h2 {
+    font-size: 200%;
+    font-family: Courier New;
+    margin: 0% 0% 0% 2%;
+    color: #6AFB98;
+}
+
+.lang p {
+    margin: 0% 0% 0% 20%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+#contact
+{
+    display: flex;
+    flex-direction: row;
+}
+#contact a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#contact h2 {
+    font-size: 150%;
+    margin: 0% 0% 0% 5%;
+    color: #6AFB98;
+    font-family: Courier New;
+}
+
+#contact p {
+    list-style: square;
+    color: white;
+    margin: 0% 0% 0% 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sci{
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    color: white;
+    font-size: 2em;
+    margin-right: 20px;
+    transition: 0.25s;
+}
+.sci li a:hover{
+    color: #6AFB98;
+}
